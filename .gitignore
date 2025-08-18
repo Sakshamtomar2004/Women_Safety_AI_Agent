@@ -1,0 +1,72 @@
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+.venv/
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# --- VSCode / Pylance ---
+.vscode/
+.vscode/*
+!.vscode/settings.json   # keep if you want shared settings
+!.vscode/extensions.json
+.pylance/
+*.pyright/
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# --- Distribution / packaging ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+
+# --- Testing ---
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# --- Logs ---
+*.log
+
+# --- OS specific ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs ---
+.idea/              # PyCharm
+*.iml
+*.sublime-project
+*.sublime-workspace
