@@ -70,3 +70,5 @@ Thumbs.db
 *.iml
 *.sublime-project
 *.sublime-workspace
+
+*.wav
